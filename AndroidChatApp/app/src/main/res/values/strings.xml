@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android Chat App</string>
+    <string name="joinRoom">Enter the room name</string>
+    <string name="joinBtn">Join Room</string>
+    <string name="title">ChatRoom</string>
+    <string name="roomName">Chat Room</string>
+    <string name="message">Enter your message</string>
+    <string name="submitBtn">Send</string>
+    <string name="userName">User Name</string>
+</resources>

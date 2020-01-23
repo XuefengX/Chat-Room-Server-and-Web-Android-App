@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Chat Room</title>
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#"><i class="fas fa-comments" id="brand"></i>  <strong>Chat Room</strong></a>
+        </div>
+    </nav>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                        <label for="roomName" class="label" id="roomNameLabel">Enter the room name:</label>
+                    </div>
+                    <div class="field-body has-addons">
+                        <div class="control"><input type="text" class="input" id="roomName"></div>
+                        <div class="control"><button class="button is-warning" id="enterBtn">Enter</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <h2 class="subtitle">
+                This is an <strong>anonymous</strong> chat room. Talk to people using fake username, with confidence!
+            </h2>
+            <div class="box" id="context">
+                <div class="field">
+                    <label for="" class="label">Anxious Dog: </label>
+                    <p>
+                        Hi this is an example of message!
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="field is-horizontal" id="getUsername">
+                <div class="field-label is-normal">
+                    <label for="username" class="label">Username</label>
+                </div>
+                <div class="field-body">
+                    <input type="text" class="input" id="username">
+                </div>
+            </div>
+            <div class="field is-horizontal" id="input">
+                <div class="field-label is-normal">
+                    <label for="text" class="label">Message</label>
+                </div>
+                <div class="field-body">
+                    <input type="text" class="input" id="text">
+                </div>
+            </div>
+            <div class="field is-horizontal">
+                <div class="field-label"></div>
+                <div class="field-body">
+                    <div class="control">
+                        <button class="button is-info" id="sendBtn">Send</button>
+                    </div>
+                    <div class="control">
+                        <button class="button is-danger" id="exitBtn">Exit</button>
+                    </div>
+                    
+                </div>
+            </div>
+        
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="content has-text-centered is-fixed-bottom">
+            <p>
+                <strong>Chat Room</strong> by Xuefeng Xu. The source code is licensed
+            </p>
+        </div>
+    </footer>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
